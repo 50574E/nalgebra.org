@@ -6,9 +6,9 @@ However, they both have different uses, depending on your application.
 
 <u>**In a very general context**:</u> vectors are what you choose when you need
 a _bag of coordinates_ (relative to a suitable basis). Points will not be
-useful for you as they support much less operations than vectors. Vectors
+useful for you as they support much fewer operations than vectors. Vectors
 support most common operations like cross product, dot product, componentwise
-binary operations, etc. Simply search for the name of the operation you want on
+binary operations, etc. Simply search for the name of the operation you want in
 the root module [documentation](rustdoc_nalgebra) or the [quick
 reference](../quick_reference) and it will likely be listed as a free
 function or a method. If you can't find what you need, feel free to open an
